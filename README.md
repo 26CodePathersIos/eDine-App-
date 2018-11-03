@@ -1,5 +1,4 @@
-# eDine-App-
-## eDine
+# e-Dine app  
 
 ### App Description
 This app is used for persons who would like to edit and create their own custom dish tailored to their dietary needs, or who would like to see which options are available at each of the dining hall locations on campus. 
@@ -16,12 +15,63 @@ This app is used for persons who would like to edit and create their own custom 
 
 ---
 
-### User Stories
-1. User can enter their dietary preferences and needs into the app and automcatically see what options they have for that meal 
-2. User can use location services to see which dining hall is closer
-3. Receive push-notifications for 30 minutes before the dining hall will close to ensure that they can come in time
-4. Call the dining halls if they have any specific questions through the app. 
+## 1. User Stories (Required and Optional)
 
+**Required Must-have Stories**
+
+ * User can enter their dietary preferences and needs into the app and automcatically see what options they have for the current meal at each dining hall 
+ * User can browse through list of dining halls 
+ * User can use location services to see which dining hall is closer and receive directions on how to get there
+ * User can see information about the hours and location of each dining hall 
+ * User can call the dining halls if they have any specific questions through the app
+
+**Optional Nice-to-have Stories**
+
+ * User can receive push-notifications for 30 minutes before the dining hall will close to ensure that they can come in time
+ * Screen with services and information regarding allergy emergencies: where to access an epi-pen, where to get medical help, which phone number to call, directions to any medical help or the campus health center
+ * Users can click on a photo of the menu option within its detailed screen for more information (calories, ingredients, etc).
+
+
+## 2. Screen Archetypes
+
+ * Register
+     * User can make an account to permanently store their dietary information
+ * Login
+     * User can login and use the app on different devices, still getting information about options catered to their needs
+ * Stream of dining halls with locations and hours
+     * User can see information about the hours and location of each dining hall 
+     * User can browse through list of dining halls 
+     * User can call the dining halls if they have any specific questions through the app
+ * Map 
+     * User can use location services to see which dining hall is closer and receive directions on how to get there 
+ * Steam of menu options at the selected dining hall 
+     * User can automcatically see what options they have for the current meal at each dining hall 
+ * Profile: lists user's allergies and dietary needs/preferences
+     * User can enter their dietary preferences and needs into the app
+    
+## 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+ * Dining Hall Feed
+ * Profile
+ * Meal Options Feed
+ * Map 
+
+**Flow Navigation** (Screen to Screen)
+
+ * Register
+     * => Profile, Dining Hall Feed / Stream
+ * Login
+     * => Profile, Dining Hall Feed / Stream
+ * Dining Hall Feed / Stream
+     * => Map, Menu Feed / Stream
+ * Map
+     * => Dining Hall Feed, Menu Feed / Stream
+ * Menu Feed / Stream
+      * => Dining Hall Feed, Profile to edit any preferences
+ * Profile
+     * => Login (if user logs out), Dining Hall Feed
 ---
 
 ### Wireframes
