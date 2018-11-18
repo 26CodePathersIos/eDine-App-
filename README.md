@@ -5,7 +5,7 @@ This app is used for persons who would like to edit and create their own custom 
 
 
 <img src="https://i.imgur.com/z3Ccrrn.gif" width=300><br>
-<img src="https://i.imgur.com/UnnfoDf.png" width=800><br>
+<img src="https://i.imgur.com/UnnfoDf.png" width=1000><br>
 
 
 
