@@ -3,12 +3,6 @@
 ### App Description
 This app is used for persons who would like to edit and create their own custom dish tailored to their dietary needs, or who would like to see which options are available at each of the dining hall locations on campus. 
 
-
-<img src="https://i.imgur.com/z3Ccrrn.gif" width=300><br>
-<img src="https://i.imgur.com/UnnfoDf.png" width=1000><br>
-
-
-
 ### App Idea Evaluation
  College dining halls dietary needs app
 - **Category:** Lifestyle/Health 
@@ -81,7 +75,10 @@ This app is used for persons who would like to edit and create their own custom 
 ---
 
 ### Wireframes
-// TODO: Add Wireframe Images
+
+<img src="https://i.imgur.com/z3Ccrrn.gif" width=300><br>
+<img src="https://i.imgur.com/UnnfoDf.png" width=1000><br>
+
 
 ---
 
